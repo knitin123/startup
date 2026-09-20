@@ -1,0 +1,23 @@
+{
+  "name": "gaonkimakki-backend",
+  "version": "1.0.0",
+  "description": "Backend for GaonKiMakki marketplace",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Himanshu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^8.20.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
